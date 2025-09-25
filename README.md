@@ -26,10 +26,12 @@ source .venv/bin/activate   # Linux/macOS
 # .venv\Scripts\activate    # Windows
 
 pip install -r requirements.txt
-pytest -q```
+pytest -q
+```
 
 ---
 
+```mermaid
 flowchart LR
   A[Push / PR] --> B[Setup Python]
   B --> C[Install requirements]
@@ -37,9 +39,11 @@ flowchart LR
   D --> E{Checks pass?}
   E -- Yes --> F[Success]
   E -- No --> G[Fail]
+```
 
 ---
 
+```
 ci-cd-practice/
 ├─ .github/workflows/   # GitHub Actions workflows
 ├─ src/                 # Application code
@@ -47,3 +51,4 @@ ci-cd-practice/
 ├─ conftest.py          # Pytest configuration
 ├─ requirements.txt     # Dependencies
 └─ README.md
+```

@@ -5,7 +5,7 @@
 ![Tests](https://img.shields.io/badge/tests-pytest-green)
 
 This repository demonstrates CI/CD skills using a simple Python project.  
-It is a **minimal example of the CI/CD workflow I implemented during my internship at AC Immune**, where I designed reproducible data pipelines, automated workflows, and deployed production-ready solutions in collaboration with data engineers and scientists:contentReference[oaicite:1]{index=1}.
+It is a **minimal example of the CI/CD workflow I implemented during my internship at AC Immune**.
 
 ---
 

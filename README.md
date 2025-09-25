@@ -5,7 +5,7 @@
 ![Tests](https://img.shields.io/badge/tests-pytest-green)
 
 This repository demonstrates CI/CD skills using a simple Python project.  
-It includes source code (`src/`), tests (`tests/`), and GitHub Actions workflows (`.github/workflows/`) to automate quality checks.
+It is a **minimal example of the CI/CD workflow I implemented during my internship at AC Immune**, where I designed reproducible data pipelines, automated workflows, and deployed production-ready solutions in collaboration with data engineers and scientists:contentReference[oaicite:1]{index=1}.
 
 ---
 
@@ -15,6 +15,7 @@ It includes source code (`src/`), tests (`tests/`), and GitHub Actions workflows
 - Unit tests with `pytest` in `tests/`
 - Workflow automation under `.github/workflows/`
 - Dependency management via `requirements.txt`
+- Inspired by real-world practices applied at **AC Immune**
 
 ---
 
@@ -23,7 +24,6 @@ It includes source code (`src/`), tests (`tests/`), and GitHub Actions workflows
 ```bash
 python -m venv .venv
 source .venv/bin/activate   # Linux/macOS
-# .venv\Scripts\activate    # Windows
 
 pip install -r requirements.txt
 pytest -q
